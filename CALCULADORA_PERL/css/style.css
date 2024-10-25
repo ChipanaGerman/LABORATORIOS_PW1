@@ -1,0 +1,71 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: gray; /* Color de fondo gris */
+    padding: 20px;
+    margin: 0;
+    height: 80vh; /* Altura total de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar el contenido verticalmente */
+}
+
+/* Contenedor de la calculadora */
+.calculator {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+}
+
+/* Campo de texto */
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Botón para calcular */
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para mostrar el resultado */
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #d1ecf1; /* Color de fondo azul claro */
+    border-radius: 4px;
+}
+
+/* Pie de pagina */
+.footer {
+	padding: 10px;
+	position: fixed;
+    margin: 0px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #337ab7;
+    text-align: center;
+    font-size: 14px;
+}
+
+
