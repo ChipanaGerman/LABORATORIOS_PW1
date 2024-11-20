@@ -1,7 +1,7 @@
-paso 1: Copiar este comando para crear la imagen.
+LINK MI REPOSITORIO
 
-docker build -t miweb .
+https://github.com/ChipanaGerman/LABORATORIOS_PW1
 
-paso 2: copiar este comando para crear el contenerdor.
+LINK VIDEO YOUTUBE
 
-docker run -d --name myweb1 -p 8083:80 -p 22:22 miweb
+https://youtu.be/N7DqCxor0Ro
