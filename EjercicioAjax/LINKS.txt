@@ -1,0 +1,13 @@
+Gestion de Mascotas Usando AJAX JSON 
+CREATE
+DELETE
+
+
+URL Video:
+
+https://youtu.be/DOfALOU1kVw
+
+URL Github:
+
+https://github.com/ChipanaGerman/LABORATORIOS_PW1
+

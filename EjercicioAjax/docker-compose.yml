@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  apache:
+    build: .
+    container_name: apache-container
+    ports:
+      - "8083:80"
+    volumes:
+      - ./html:/var/www/html
+      - ./apache-config:/etc/apache2/sites-enabled
+    depends_on:
+      - mariadb
+    networks:
+      - webnet
+    restart: always
+
+  mariadb:
+    image: mariadb:10.5
+    container_name: mariadb-container
+    environment:
+      MYSQL_ROOT_PASSWORD: GerlU2024
+      MYSQL_DATABASE: mascotas
+      MYSQL_USER: root
+      MYSQL_PASSWORD: GerlU2024
+    volumes:
+      - ./mariadb-data:/var/lib/mysql
+    networks:
+      - webnet
+    restart: always
+
+networks:
+  webnet:
+    driver: bridge
